@@ -20,6 +20,7 @@ jobs:
           curl -fsSL -o project.zip https://raw.githubusercontent.com/kayy-1/finscope-financial-health-dashboard/main/finscope-project.zip
           unzip -o project.zip -d extracted
           cp -a extracted/. .
+          rm -f .github/workflows/pages.yml
           rm -rf project.zip extracted
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
