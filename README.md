@@ -6,17 +6,18 @@
 
 双击根目录的 `index.html` 即可使用。项目内置虚构教学数据和完整交互，不要求安装环境、登录或输入 API Key。
 
-部署到 GitHub Pages 后，可把在线地址替换到下方：
+在线体验无需安装环境、登录或输入 API Key：
 
-- 在线 Demo：部署后填写 `https://<用户名>.github.io/<仓库名>/`
-- 演示视频：部署后填写视频链接
-- 源代码：当前仓库
+- 在线 Demo：https://kayy-1.github.io/finscope-financial-health-dashboard/
+- 源代码：https://github.com/kayy-1/finscope-financial-health-dashboard
+- 演示视频：待录制
 
 ## 页面预览
 
 ![桌面端经营概览](screenshots/desktop-overview.png)
 
 ![移动端经营概览](screenshots/mobile-overview.png)
+
 
 可打印版本：[PDF 示例报告](screenshots/demo-report.pdf)
 
@@ -53,8 +54,7 @@
 │  ├─ acceptance.md               # 交付验收记录
 │  ├─ prompt-log.md               # AI 协作过程记录
 │  └─ demo-script.md              # 90 秒演示脚本
-├─ screenshots/                   # 桌面与移动端截图
-└─ .github/workflows/pages.yml    # GitHub Pages 自动部署
+└─ screenshots/                   # 桌面、移动端与公网截图
 ```
 
 ## 本地验证
@@ -104,10 +104,10 @@ SELECT * FROM company_financial_summary ORDER BY fiscal_year;
 
 ## GitHub Pages 部署
 
-1. 新建公开 GitHub 仓库并推送当前文件夹。
-2. 在仓库 `Settings > Pages` 中将 Source 设为 `GitHub Actions`。
-3. 推送到 `main` 分支后，工作流会发布静态页面。
-4. 将 Pages 地址补充到 README 和简历。
+1. 在仓库 `Settings > Pages` 中将 Source 设为 `Deploy from a branch`。
+2. 选择 `main` 分支和 `/ (root)` 目录。
+3. 保存后等待 GitHub Pages 完成构建。
+4. 当前发布地址为 `https://kayy-1.github.io/finscope-financial-health-dashboard/`。
 
 ## 数据与限制
 
