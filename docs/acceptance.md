@@ -36,11 +36,11 @@
 - [x] 提供公式与风险阈值说明。
 - [x] 提供 Vibe Coding 过程记录。
 - [x] 提供桌面和移动端截图。
-- [x] GitHub Pages 工作流已配置。
+- [x] GitHub Pages 已通过 `main` 分支根目录发布。
 
 ## 发布后人工补充
 
-- [ ] 填写真实 GitHub 仓库地址。
-- [ ] 填写 GitHub Pages 在线 Demo 地址。
+- [x] 填写真实 GitHub 仓库地址。
+- [x] 填写 GitHub Pages 在线 Demo 地址。
 - [ ] 录制并上传 90 秒演示视频。
 - [ ] 根据实际耗时和测试结果补充简历量化数据。
