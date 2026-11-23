@@ -1,0 +1,12 @@
+{
+  "name": "finscope-financial-health-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A standalone financial health, risk and scenario analysis dashboard.",
+  "scripts": {
+    "check:visual": "node scripts/visual_check.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
